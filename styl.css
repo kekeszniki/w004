@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    font-family: Arial;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+
+}
+
+.A {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background-color: blue;
+    width: 80%;
+    color: yellow;
+
+}
+
+.B {
+    position: absolute;
+    top: 35%;
+    font-family: monospace;
+    left: 10%;
+    background-color: red;
+    width: 80%;
+    color: green;
+}
+
+.C {
+    position: absolute;
+    top: 50%;
+    font-family: serif;
+    left: 10%;
+    background-color: green;
+    width: 80%;
+    color: white;
+}
+
+.D {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    font-family: cursive;
+    background-color: yellow;
+    width: 80%;
+    color: black;
+}
+
+.E {
+    position: absolute;
+    top: 82%;
+    left: 10%;
+    font-family: fantasy;
+    color: red;
+    background-color: grey;
+    width: 80%;
+}
