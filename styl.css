@@ -61,3 +61,69 @@ button {
     color: white;
     background-color: black;
 }
+
+.container
+{
+    position: absolute;
+    top: 9%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    width: 650px;
+    height: 145px;
+}
+
+.container::before
+{{
+
+}}
+
+.container::after
+{
+    
+
+}
+
+.zegar
+{
+  width: 100%;
+  height: 100%;
+  background: rgba(235, 0, 255, 0.11);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zegar span
+{
+    font-size: 80px;
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.zegar span::after
+{
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    content: 'HOURS';
+    font-size: 16px;
+    transform: translateX(-50%);
+}
+
+#hrs::after
+{
+    content: 'HOURS';
+}
+
+#min::after
+{
+    content: 'MINS';
+}
+
+#sec::after
+{
+    content: 'SEC';
+}
